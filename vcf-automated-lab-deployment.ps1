@@ -7,7 +7,7 @@ $VIUsername = "administrator@vsphere.local"
 $VIPassword = "Trevor.6960@wicom"
 
 # Full Path to both the Nested ESXi 8.0U2B & Cloud Builder 5.1.1 OVA
-$NestedESXiApplianceOVA = "/root/Nested_ESXi8.0u2b_Appliance_Template_v1.ova"
+$NestedESXiApplianceOVA = "C:\Users\patrick\Downloads\vcf-automated-lab-deployment-master\Nested_ESXi8.0u2b_Appliance_Template_v1.ova"
 $CloudBuilderOVA = "/root/VMware-Cloud-Builder-5.1.1.0-23480823_OVF10.ova"
 
 # VCF Licenses or leave blank for evaluation mode (requires VCF 5.1.1)
@@ -99,7 +99,7 @@ $VMGateway = "172.17.31.1"
 $VMDNS = "172.17.31.2"
 $VMNTP = "172.17.31.2"
 $VMPassword = "VMware1!"
-$VMDomain = "tshirts.inc"
+$VMDomain = "podhiambo.inc"
 $VMSyslog = "172.17.31.182"
 $VMFolder = "VCF"
 
