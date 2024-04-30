@@ -2,9 +2,9 @@
 # Website: www.williamlam.com
 
 # vCenter Server used to deploy VMware Cloud Foundation Lab
-$VIServer = "FILL-ME-IN"
-$VIUsername = "FILL-ME-IN"
-$VIPassword = "FILL-ME-IN"
+$VIServer = "192.168.110.187"
+$VIUsername = "administrator@vsphere.local"
+$VIPassword = "Trevor.6960@wicom"
 
 # Full Path to both the Nested ESXi 8.0U2B & Cloud Builder 5.1.1 OVA
 $NestedESXiApplianceOVA = "/root/Nested_ESXi8.0u2b_Appliance_Template_v1.ova"
@@ -90,7 +90,7 @@ $NSXAdminPassword = "VMware1!VMware1!"
 $NSXAuditPassword = "VMware1!VMware1!"
 
 # General Deployment Configuration for Nested ESXi & Cloud Builder VM
-$VMDatacenter = "San Jose"
+$VMDatacenter = "Nairobi"
 $VMCluster = "Compute Cluster"
 $VMNetwork = "sjc-comp-mgmt (1731)"
 $VMDatastore = "comp-vsanDatastore"
