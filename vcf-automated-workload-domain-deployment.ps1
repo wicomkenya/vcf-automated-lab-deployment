@@ -1,9 +1,9 @@
 # Author: William Lam
 # Website: www.williamlam.com
 
-$sddcManagerFQDN = "FILL_ME_IN"
-$sddcManagerUsername = "FILL_ME_IN"
-$sddcManagerPassword = "FILL_ME_IN"
+$sddcManagerFQDN = "vcf-sddc.podhiambo.inc"
+$sddcManagerUsername = "paddy"
+$sddcManagerPassword = "VMware123!VMware123!"
 
 $ESXILicense = "FILL_ME_IN"
 $VSANLicense = "FILL_ME_IN"
@@ -35,7 +35,7 @@ $NSXAdminPassword = "VMware1!VMware1!"
 
 $VMNetmask = "255.255.255.0"
 $VMGateway = "172.17.31.1"
-$VMDomain = "tshirts.inc"
+$VMDomain = "podhiambo.inc"
 
 #### DO NOT EDIT BEYOND HERE ####
 
