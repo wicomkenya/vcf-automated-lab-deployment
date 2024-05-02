@@ -7,8 +7,8 @@ $VIUsername = "administrator@vsphere.local"
 $VIPassword = "Trevor.6960@wicom"
 
 # Full Path to both the Nested ESXi 8.0U2B & Cloud Builder 5.1.1 OVA
-$NestedESXiApplianceOVA = "C:\Users\patrick\Downloads\vcf-automated-lab-deployment-master\Nested_ESXi8.0u2b_Appliance_Template_v1.ova"
-$CloudBuilderOVA = "C:\Users\patrick\Downloads\vcf-automated-lab-deployment-master\VMware-Cloud-Builder-5.1.1.0-23480823_OVF10.ova"
+$NestedESXiApplianceOVA = "C:\vcf-automated-lab-deployment-master\Nested_ESXi8.0u2b_Appliance_Template_v1.ova"
+$CloudBuilderOVA = "C:\vcf-automated-lab-deployment-master\VMware-Cloud-Builder-5.1.1.0-23480823_OVF10.ova"
 
 # VCF Licenses or leave blank for evaluation mode (requires VCF 5.1.1)
 $VCSALicense = ""
